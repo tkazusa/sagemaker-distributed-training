@@ -12,8 +12,10 @@
 - パラメーターサーバーを用いた分散学習
   - SageMakerのTensorflow Estimator Ovjectのdistributions引数に分散学習用の設定を渡した上で、instance_countを複数にすればOK。
   - 学習が進むと.pb形式でモデルが保存され、それはTensorflow servingのコンテナで読み込める。
-- Horovodを用いた分散学習
-  - 
+
+
+
+## Horovodを用いた分散学習 
 
 - [Amazon SageMaker の Horovod またはパラメータサーバーでTensorFlow 分散トレーニングを簡単に起動する](https://aws.amazon.com/jp/blogs/news/launching-tensorflow-distributed-training-easily-with-horovod-or-parameter-servers-in-amazon-sagemaker/)
 - [Sagemaker Distributed Training with Parameter Server and Horovod](https://github.com/aws-samples/sagemaker-horovod-distributed-training)
