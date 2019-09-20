@@ -1,7 +1,9 @@
 # Sagemakerでの分散学習
 
 - [PARALLELIZED DATA DISTRIBUTION](https://sagemaker-workshop.com/builtin/parallelized.html)
-- [Amazon SageMaker Tensorflow ハンズオン](https://github.com/shokout/handson-201812)
+
+## [Amazon SageMaker Tensorflow ハンズオン](https://github.com/shokout/handson-201812)
+- パラメーターサーバを使った分散学習ハンズオン
 
 
 ### [TensorFlow 分散トレーニングオプション](https://github.com/aws-samples/amazon-sagemaker-script-mode/blob/master/tf-distribution-options/tf-distributed-training.ipynb)
