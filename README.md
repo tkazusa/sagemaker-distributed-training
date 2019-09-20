@@ -22,7 +22,7 @@
 - [Power Machine Learning at Scale](https://d1.awsstatic.com/whitepapers/aws-power-ml-at-scale.pdf)
   - AWSインフラ上で分散学習をやった際のホワイトペーパー
   - 分散深層学習だけじゃなくてDaskとかRayとかについても言及してるっぽい。
-  
-  # 疑問
-  - インスタンスタイプと分散学習の通信速度の関係
-    - p2.xlargeとp2.8xlargeでやると、同じインスタンス数をしていしていた場合、どの程度違う？
+
+# 疑問
+- インスタンスタイプと分散学習の通信速度の関係
+  - p2.xlargeとp2.8xlargeでやると、同じインスタンス数をしていしていた場合、どの程度違う？
