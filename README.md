@@ -11,7 +11,7 @@
 - データはcifer-10をTFrecordeに変換して使用、Tensorflowの実装は1.13の'tf.keras'
 - パラメーターサーバーを用いた分散学習
   - SageMakerのTensorflow Estimator Ovjectのdistributions引数に分散学習用の設定を渡した上で、instance_countを複数にすればOK。
-  - 'distributions = {'parameter_server': {'enabled': True}}'
+  - `distributions = {'parameter_server': {'enabled': True}}`
   - 学習が進むと.pb形式でモデルが保存され、それはTensorflow servingのコンテナで読み込める。
 - Horovodを用いた分散学習
   - 
